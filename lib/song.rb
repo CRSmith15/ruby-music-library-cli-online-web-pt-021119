@@ -20,7 +20,7 @@ class Song
     @@all << self 
   end
   
-  def self.create(name)
+  def self.create(name, artist=nil, genre=nil)
     @name = name 
     @@all << self
     self 
