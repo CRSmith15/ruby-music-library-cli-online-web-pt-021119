@@ -21,7 +21,7 @@ class Song
   end
   
   def self.create(name, artist=nil, genre=nil)
-    Song.new()
+    Song.new(name, artist, genre)
   end
   
    def artist
