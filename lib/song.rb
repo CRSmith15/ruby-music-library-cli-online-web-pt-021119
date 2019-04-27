@@ -21,7 +21,8 @@ class Song
   end
   
   def self.create(name)
-    self.new(name).tap do 
+    self.new(name).tap do |song|
+      
   end
   
    def artist
